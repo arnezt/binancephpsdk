@@ -121,4 +121,4 @@ $address = $keystore->publicKeyToAddress($publicKey, 'tbnb');
 
 
 
-Many thanks to https://github.com/hammadtq/binance-php-sdk has provided this source.
+Many thanks to https://github.com/hammadtq/binance-php-sdk has provided the original source code.
