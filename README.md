@@ -1,5 +1,5 @@
 # binance-php-sdk
-(Fork from hammadtq/binance-php-sdk Porting to composer)
+(Fork from `hammadtq/binance-php-sdk` Porting to composer)
 This repository contains the PHP-SDK to interact with [Binance DEX](http://binance.org). It's supported by mostly pure PHP code. The documentation for Binance DEX supported methods is [here](http://docs.binance.org).
 
 ## Installation
@@ -13,7 +13,7 @@ The SDK relies on [secp256k1-php](https://github.com/Bit-Wasp/secp256k1-php). Th
 
 ### To Install:
 
-(First check (Ubuntu/Debian) if phpize has available: `sudo apt install php7.x-dev`)
+(First check (Ubuntu/Debian) if `phpize` has available: `sudo apt install php7.x-dev`)
 
 libsecp256k1:
 
@@ -48,7 +48,7 @@ add: `extension=secp256k1.so`
 
 `$ sudo ln -s /etc/php/7.x/mods-available/secp256k1.ini /etc/php/7.x/fpm/conf.d/20-secp256k1.ini` (for fpm)
 
-`$ sudo ln -s /etc/php/7.x/mods-available/secp256k1.ini /etc/php/7.x/cli/conf.d/20-secp256k1.ini` (for cgi)
+`$ sudo ln -s /etc/php/7.x/mods-available/secp256k1.ini /etc/php/7.x/cli/conf.d/20-secp256k1.ini` (for cli)
 
 The repository was made on Mac OSX using PHP version `7.15.3`. You will also need a version above 7. It is advised to go with native PHP installation instead of going with XAMPP or WAMPP so to take advantage of secp256k1-php natively. Also, you may need `gmp` extension.
 
