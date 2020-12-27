@@ -1,0 +1,36 @@
+{
+    "name": "arnezt/binancephpsdk",
+    "description": "This repository contains the PHP-SDK to interact with Binance DEX. It's supported by mostly pure PHP code.",
+    "keywords": [
+        "Binance Chain PHP SDK"
+    ],
+    "homepage": "http://arnezt.github.io/binancephpsdk",
+    "license": "MIT",
+    "type": "library",
+    "authors": [{
+        "name": "Hammad Tariq",
+        "email": "hammadtq@hammadtariq.com"
+    }],
+    "autoload": {
+        "psr-0": {
+            "": "gen",
+            "Binance": "src",
+            "Binance\\RPC": "src/RPC"
+        },
+        "psr-4": {
+            "": "gen",
+            "Binance\\": "src",
+            "Binance\\RPC\\": "src/RPC"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "graze/guzzle-jsonrpc": "^3.2",
+        "bitwasp/buffertools": "^0.5.7",
+        "google/protobuf": "^3.11",
+        "brick/math": "^0.8.14",
+        "bitwasp/bitcoin": "^1.0",
+        "ramsey/uuid": "^4.0",
+        "php": ">=7.0"
+    }
+}
