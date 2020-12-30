@@ -11,7 +11,7 @@ $bncClient = new BncClient('https://testnet-dex.binance.org');
 $bncClient->chooseNetwork("testnet"); // or this can be "mainnet" testnet
 
 // getAccount
-$result = $bncClient->getAccount('tbnb1zka5265vhst0jf4jr3tnwcmxqg8he4myj6yu4u');
+$result = $bncClient->getAccount('tbnb1yqyppmev2m4z96r4svwtjq8eqp653pt6elq33r');
 print_r($result) . "\n";
 
 //getBalance
