@@ -5,7 +5,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use Binance\Client\BncClient;
 use Binance\Swap\Swap;
 
-$privateKey = '51e76325863bf65727feec21c1c5cb8c455751e14a34e21aa325d5fdb9fe2xxx';
+$privateKey = 'xxxxx25863bf65727feec21c1c5cb8c455751e14a34e21aa325d5fdb9fe2xxx';
 // https://data-seed-pre-2-s1.binance.org
 // https://testnet-dex.binance.org
 // api.binance.org/bridge
