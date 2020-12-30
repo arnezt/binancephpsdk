@@ -20,7 +20,7 @@ $entropy = $random->bytes(Bip39Mnemonic::MAX_ENTROPY_BYTE_LEN);
 
 $bip39 = MnemonicFactory::bip39();
 $seedGenerator = new Bip39SeedGenerator();
-$mnemonic = 'bubble zoo increase brick used rookie elder inquiry consider find other one';
+$mnemonic = 'foo bar baz bozz used rookie elder inquiry consider find other one';
 print_r($mnemonic) . "\n";
 echo PHP_EOL;
 // Derive a seed from mnemonic/password
