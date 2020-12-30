@@ -7,7 +7,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use Binance\Client\BncClient;
 use Binance\Swap\Swap;
 
-$privateKey = '51e76325863bf65727feec21c1c5cb8c455751e14a34e21aa325d5fdb9fe2xxx';
+$privateKey = 'xxxxa7ce4b35c5394dd4c602068c622ad25feb3d63a5e1445ba9b5ebc0b9d0xxxx';
 $bncClient = new BncClient('https://data-seed-pre-2-s1.binance.org');
 $bncClient->chooseNetwork("testnet"); // or this can be "mainnet"
 $bncClient->initChain();
